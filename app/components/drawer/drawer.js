@@ -42,7 +42,7 @@ function Drawer(props) {
 
   return (
     <SafeAreaView style={styles.container}>
-      <FastImage source={images.icon} style={styles.image} />
+      <FastImage source={images.logo} style={styles.image} />
       <ScrollView contentContainerStyle={styles.scrollViewContainer}>
         <TouchableOpacity style={styles.itemContainer} onPress={() => changeLanguageWithRTL()}>
           {drawerIcons.language}

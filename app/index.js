@@ -16,7 +16,7 @@ enableScreens();
 
 const App = () => {
   useEffect(() => {
-    console.disableYellowBox = true;
+    console.disableYellowBox = false;
     if (Platform.OS == 'android') {
       SplashScreen.hide();
     }
@@ -44,8 +44,8 @@ const codePushOptions = {
   installMode: codePush.InstallMode.IMMEDIATE,
 };
 
-export default codePush(codePushOptions)(App);
-
+// export default codePush(codePushOptions)(App);
+export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,

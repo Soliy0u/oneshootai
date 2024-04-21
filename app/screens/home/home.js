@@ -16,8 +16,8 @@ const Home = (props) => {
     <View style={styles.container}>
       <MenuHeader title={i18('Home.title')} {...props} />
       <View style={styles.buttonContainer}>
-        <FacebookButton />
-        <GoogleButton />
+        {/* <FacebookButton />
+        <GoogleButton /> */}
       </View>
     </View>
   );
