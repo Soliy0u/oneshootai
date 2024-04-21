@@ -8,7 +8,7 @@ export default StyleSheet.create({
   container: { height: '100%', backgroundColor: 'white' },
   image: {
     width: '100%',
-    height: 200,
+    height: 150,
   },
   itemContainer: {
     flexDirection: 'row',
